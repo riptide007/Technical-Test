@@ -2,7 +2,102 @@ Name: Jason Muthuo Gikonyo
 Language: Python
 SQL Answers
   Question 1:
-    Task A
-      create
-        students
-        
+      Task A
+       create table students
+          id as num,
+          name as name,
+          age as num,
+          city as text;
+
+      Task B
+      insert into students where
+          name = "John", "Sarah",
+          age = 20 , 22 ,
+          city = "New York","Boston";
+
+      Task C
+      select from students() where
+          age > 21;
+
+  Question 2:
+      Task A
+       select from students(age) where name = "Sarah"
+          set students(age) to 23;
+
+
+      Task B
+      select from students()
+
+      Task C
+      select from students() where name desc
+
+
+Programming Answers
+Question 1
+Def SimpleCalculator()
+  x=0
+  y=6
+  add = x+y
+  print add
+  sub = y-x
+  print sub
+  mul = x*y
+  print mul
+  div = y//0
+  print div
+
+
+Question 2
+ Def average(score1,score2,score3)
+    ascore= (score1+score2+score3)/3
+ elif ascore>=90
+      grade = "A"
+      print grade
+ elif ascore>=80
+      grade = "B"
+      print grade
+ elif ascore>=70
+      grade = "C"
+      print grade 
+ elif ascore>=60
+      grade = "D"
+      print grade
+else 
+      grade = "F"
+      print grade
+
+
+
+Question 3
+def cart()
+
+
+
+Question 4
+def game(x)
+ num = rand(1,10)
+ count = 0
+ while count <= 3{
+    elif num = x
+      count = 3
+      result = "win"
+      print result
+    elif (num < x and count <= 3)
+      count +=
+      print "Too high"
+    elif (num > x and count <= 3)
+      count +=
+      print "Too Low"
+    else
+      result = "Lose"
+      print result
+}
+
+    
+
+
+
+
+
+
+
